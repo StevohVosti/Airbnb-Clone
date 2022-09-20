@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+@media only screen and (max-width: 320px) {
+  .header {
+    width: 50%;
+  }
+
+  .header-icon {
+    object-fit: contain;
+    height: 10px;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,52 @@
+.banner {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIl_Wtm8U_bM-E-M5ZLRkmtJz07uTfJqAZkg&usqp=CAU');
+  height: 50vh;
+  position: relative;
+}
+
+.banner-info  {
+   color: white;
+  background-color: black;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+
+ h1, h5  {
+  color: white;
+}
+
+.banner-info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner-info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner-info > h5 {
+  margin-top: 10px;
+} 
+
+.banner-search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-searchbutton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important; 
+}
+
+.banner-searchbutton:hover {
+  background-color: #ff7779;
+}
